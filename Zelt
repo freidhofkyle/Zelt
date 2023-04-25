@@ -1,0 +1,20 @@
+#!/usr/bin/env  python3 
+from datetime import date 
+import time
+today = date.today()
+user = input ("Who are You: ")
+print("Hello",user)
+print("It is",today)
+choice = input ("Display 24 hour time or 12 hour: ")
+
+if choice == '24':
+    print (time.strftime("%H:%M:%S"))
+
+elif choice == '12':
+    print (time.strftime("%I:%M:%S"))
+
+else:
+    print("Error: Wrong Option")
+    exit
+
+
