@@ -1,0 +1,44 @@
+#!/usr/bin/env  python3
+
+# Importing python libray Calendar 
+import calendar
+# Setting varriables for month and year 
+yy = 2023
+mm = 5
+
+# printing out the calendar month and year
+print(calendar.month(yy, mm))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
